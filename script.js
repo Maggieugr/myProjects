@@ -70,7 +70,6 @@ function rpsFrontEnd(humanImageChoice, botImageChoice, finalMessage) {
         'scissors': document.getElementById('scissors').src,
     }
 
-    //let's remove all the images
     document.getElementById('rock').remove();
     document.getElementById('paper').remove();
     document.getElementById('scissors').remove();
